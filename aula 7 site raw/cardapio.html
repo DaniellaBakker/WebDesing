@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante RAW</title>
+    <link rel="stylesheet" href="raw.css">
+</head>
+
+<!-- main = conteudo da pagina -->
+<!-- as sections ficam dentro do main -->
+    <body>
+        <header>
+            <h1><a href="index.html">Restaurante RAW</a></h1>
+            <nav>
+                <OL>
+                    <!-- manter o cabeçalho padrao em todas as paginas. Sempre mnter mesmo que esteja na pagina  -->
+                    <!--  se usa UL quando a lista tem algum tipo de ordem. Em outro caso, ul -->
+                    <!-- CLASS É UM CLASSIFICADOR (em resumo, um ID pra vários itens) -->
+                    <!-- class NAO pode começar com numero -->
+                    <li class="atual"><a href="cardapio.html">Cardápio</a></li>
+                    <li><a href="chefe.html">Chefe</a></li>
+                    <li><a href="reserva.html">Reserva</a></li>
+                    <li><a href="contato.html">Contato</a></li>
+                </OL>
+            </nav>
+        </header>
+
+<article>
+    <!-- conteudo especifico da pagina INTERNA (em resumo, troca o MAIN por ela) -->
+    <h2>Cardápio</h2>
+        <table>
+            <!-- tabela é usada para TABULAÇÃO de danos != da diagramação de colunas -->
+            <caption>Titulo</caption>
+            <tr>
+                <th>Prato</th>
+                <th>Preço</th>
+            </tr>
+            <tr>
+                <td>Coxinha de Jaca</td>
+                <td>15,00</td>
+            </tr>
+            <tr>
+                <td>Nhoque de beterraba</td>
+                <td>40,00</td>
+            </tr>
+        </table>    
+</article>
+<aside>
+<!-- conteudo relacionado a pagina ma snao diretamente. Geralmente fica em baixo mas sempre do lado 9ex: recmendsdo, pessoas tambem compraram, etc -->
+</aside>
+</body>
+</html>
