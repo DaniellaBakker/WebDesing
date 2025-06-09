@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+li.atual a{
+    color: rgb(255, 81, 0);
+/* }
+.atual{
+    background-color: aqua; */
+}
+table{
+    max-width: 70em;
+    margin: 0 auto;
+    /* AUTO não funciona pra cima e pra baixo */
+    /* o max width evita de criar aquela barrinha de rolagem. O primeiro valor é a margem de cima e de baixo. O segundo é a da dieita e da esquerda. O AUTO faz om que ele fique n centro (é um text alingh por blocos) */
+    border-collapse: collapse;
+    /* o border-COLLAPSE  */
+}
+th, td{
+/* ao colocar "th" VIRGULA "td" eu aplico o CSS em ambas as tags */
+    border: 1px solid red;
+    padding: 1em;
+}
+
+tr:nth-child(odd){
+/* nth = enésimo (um numero que a gente nao sabe qual é). Se eu colocar 2, ele aplic ana segunda linha */
+/* quando vc coloca EVEN é par. o ODDA é as linhas imapares */
+/* É USADO PRA CRIAR NAS TABELAS AQUELE EFEITO DE COR SIM COR NÃO */
+    background-color: beige;
+}

@@ -1,0 +1,45 @@
+body{
+    text-align: center;
+    background-color:  #F9F1DC;
+    font-family: Garamond;
+
+}
+
+
+figure img{
+    border-top: 3px solid #F5BD26;
+    border-bottom: 3px solid #F5BD26;
+    margin-left: auto;
+    margin-right: auto;
+} 
+
+section ul{
+    list-style: none;
+}
+ul img{
+    max-width: 70em;
+    margin: 0 auto;
+}
+li{
+        display: inline-block;
+}
+h2{
+    border-bottom: 3px solid #F5BD26;
+}
+footer{
+    background-color: white;
+    padding: 2em;
+}
+
+nav li{ /* Especificidade. formata-se o li que esta dentro do nav  */
+    display: inline-block; /* o display permite que os li fiquem um ao lado do outro */
+    list-style: none;
+}
+nav li a{
+    text-decoration: none;
+    color: #F9F1DC;
+    display: inline-block;
+    border: 2px solid white;
+    padding: 1em 2em;
+    background-color: #F5BD26;
+}
